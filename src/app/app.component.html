@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<button (click)="ConvertCSVtoJSON()">Convert CSV to JSON</button>
+<hr>
+
+<input type="file" accept=".csv" (change)="handleFileSelect($event)">
